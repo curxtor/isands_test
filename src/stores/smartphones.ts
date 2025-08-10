@@ -19,7 +19,8 @@ export const useSmartphoneStore = defineStore('smartphones', () => {
         nfc: false,
         esim: true,
         wireless_charge: true
-      }
+      },
+      checked: false
     },
     {
       id: 2,
@@ -36,7 +37,8 @@ export const useSmartphoneStore = defineStore('smartphones', () => {
         nfc: true,
         esim: true,
         wireless_charge: false
-      }
+      },
+      checked: false
     },
     {
       id: 3,
@@ -53,7 +55,8 @@ export const useSmartphoneStore = defineStore('smartphones', () => {
         nfc: true,
         esim: false,
         wireless_charge: true
-      }
+      },
+      checked: false
     },
     {
       id: 4,
@@ -70,7 +73,8 @@ export const useSmartphoneStore = defineStore('smartphones', () => {
         nfc: true,
         esim: false,
         wireless_charge: true
-      }
+      },
+      checked: false
     },
     {
       id: 5,
@@ -87,7 +91,8 @@ export const useSmartphoneStore = defineStore('smartphones', () => {
         nfc: true,
         esim: false,
         wireless_charge: false
-      }
+      },
+      checked: false
     },
     {
       id: 6,
@@ -104,7 +109,8 @@ export const useSmartphoneStore = defineStore('smartphones', () => {
         nfc: true,
         esim: true,
         wireless_charge: false
-      }
+      },
+      checked: false
     },
   ])
   const displayed = ref<Smartphone[]>([]);
